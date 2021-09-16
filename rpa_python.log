@@ -1,0 +1,143 @@
+
+START - automation started - Thu Sep 16 2021 13:27:02 GMT+0530 (India Standard Time)
+
+LIVE MODE - type done to quit
+ [RPA][STARTED]
+[RPA][0] - listening for inputs
+[RPA][1] - https://exciseportal.py.gov.in/puduvaicalal1/
+[RPA][1] - listening for inputs
+[RPA][2] - exist_result = exist('//*[@id="txtUName"]').toString()
+[RPA][2] - listening for inputs
+[RPA][3] - dump exist_result to rpa_python.txt
+[RPA][3] - listening for inputs
+[RPA][4] - type //*[@id="txtUName"] as MUNIYANDI
+[RPA][4] - listening for inputs
+[RPA][5] - exist_result = exist('//*[@id="tpass"]').toString()
+[RPA][5] - listening for inputs
+[RPA][6] - dump exist_result to rpa_python.txt
+[RPA][6] - listening for inputs
+[RPA][7] - type //*[@id="tpass"] as kannanSMW@272
+[RPA][7] - listening for inputs
+[RPA][8] - exist_result = exist('//*[@id="img"]/form/table/tbody/tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/img').toString()
+[RPA][8] - listening for inputs
+[RPA][9] - dump exist_result to rpa_python.txt
+[RPA][9] - listening for inputs
+[RPA][10] - snap //*[@id="img"]/form/table/tbody/tr[4]/td[2]/table/tbody/tr/td/table/tbody/tr/td/img to cap.png
+[RPA][10] - listening for inputs
+[RPA][11] - exist_result = exist('//*[@id="img"]/form/table/tbody/tr[5]/td[2]/input').toString()
+[RPA][11] - listening for inputs
+[RPA][12] - dump exist_result to rpa_python.txt
+[RPA][12] - listening for inputs
+[RPA][13] - type //*[@id="img"]/form/table/tbody/tr[5]/td[2]/input as 22F358\n\f
+[RPA][13] - listening for inputs
+[RPA][14] - exist_result = exist('LoginBtn.png').toString()
+[RPA][14] - listening for inputs
+[RPA][15] - dump exist_result to rpa_python.txt
+[RPA][15] - listening for inputs
+[RPA][16] - click LoginBtn.png
+[RPA][16] - listening for inputs
+[RPA][17] - exist_result = exist('PermitBnt.png').toString()
+[RPA][17] - listening for inputs
+[RPA][18] - dump exist_result to rpa_python.txt
+[RPA][18] - listening for inputs
+[RPA][19] - click PermitBnt.png
+[RPA][19] - listening for inputs
+[RPA][20] - exist_result = exist('DealerForm.png').toString()
+[RPA][20] - listening for inputs
+[RPA][21] - dump exist_result to rpa_python.txt
+[RPA][21] - listening for inputs
+[RPA][22] - click DealerForm.png
+[RPA][22] - listening for inputs
+[RPA][23] - exist_result = exist('//input[@name="dateofsale"]').toString()
+[RPA][23] - listening for inputs
+[RPA][24] - dump exist_result to rpa_python.txt
+[RPA][24] - listening for inputs
+[RPA][25] - type //input[@name="dateofsale"] as  02/09/2021
+[RPA][25] - listening for inputs
+[RPA][26] - exist_result = exist('Sales_type.png').toString()
+[RPA][26] - listening for inputs
+[RPA][27] - dump exist_result to rpa_python.txt
+[RPA][27] - listening for inputs
+[RPA][28] - click Sales_type.png
+[RPA][28] - listening for inputs
+[RPA][29] - exist_result = exist('FL2_reatail.png').toString()
+[RPA][29] - listening for inputs
+[RPA][30] - dump exist_result to rpa_python.txt
+[RPA][30] - listening for inputs
+[RPA][31] - click FL2_reatail.png
+[RPA][31] - listening for inputs
+[RPA][32] - exist_result = exist('//*[@id="normalsale"]/td/fieldset/table/tbody/tr[5]/td[6]/select').toString()
+[RPA][32] - listening for inputs
+[RPA][33] - dump exist_result to rpa_python.txt
+[RPA][33] - listening for inputs
+[RPA][34] - type //*[@id="normalsale"]/td/fieldset/table/tbody/tr[5]/td[6]/select as AMSTEL SUPER PREMIUM STRONG BEER-12027\'
+[RPA][34] - listening for inputs
+[RPA][35] - exist_result = exist('//*[@id="normalsale"]/td/fieldset/table/tbody/tr[6]/td[2]/select').toString()
+[RPA][35] - listening for inputs
+[RPA][36] - dump exist_result to rpa_python.txt
+[RPA][36] - listening for inputs
+[RPA][37] - type //*[@id="normalsale"]/td/fieldset/table/tbody/tr[6]/td[2]/select as 650
+[RPA][37] - listening for inputs
+[RPA][38] - exist_result = exist('//*[@id="exstock2"]/input').toString()
+[RPA][38] - listening for inputs
+[RPA][39] - dump exist_result to rpa_python.txt
+[RPA][39] - listening for inputs
+[RPA][40] - type //*[@id="exstock2"]/input as [clear]
+[RPA][40] - listening for inputs
+[RPA][41] - exist_result = exist('//*[@id="exstock2"]/input').toString()
+[RPA][41] - listening for inputs
+[RPA][42] - dump exist_result to rpa_python.txt
+[RPA][42] - listening for inputs
+[RPA][43] - type //*[@id="exstock2"]/input as 2
+[RPA][43] - listening for inputs
+[RPA][44] - dom return prompt('Do you want to submit')
+[RPA][44] - listening for inputs
+[RPA][45] - dump dom_result to rpa_python.txt
+[RPA][45] - listening for inputs
+[RPA][46] - exist_result = exist('//*[@id="normalsale"]/td/fieldset/table/tbody/tr[5]/td[6]/select').toString()
+[RPA][46] - listening for inputs
+[RPA][47] - dump exist_result to rpa_python.txt
+[RPA][47] - listening for inputs
+[RPA][48] - type //*[@id="normalsale"]/td/fieldset/table/tbody/tr[5]/td[6]/select as 1848 PREMIUM XO BRANDY-12359\'
+[RPA][48] - listening for inputs
+[RPA][49] - exist_result = exist('//*[@id="normalsale"]/td/fieldset/table/tbody/tr[6]/td[2]/select').toString()
+[RPA][49] - listening for inputs
+[RPA][50] - dump exist_result to rpa_python.txt
+[RPA][50] - listening for inputs
+[RPA][51] - type //*[@id="normalsale"]/td/fieldset/table/tbody/tr[6]/td[2]/select as 180
+[RPA][51] - listening for inputs
+[RPA][52] - exist_result = exist('//*[@id="newstock2"]/input').toString()
+[RPA][52] - listening for inputs
+[RPA][53] - dump exist_result to rpa_python.txt
+[RPA][53] - listening for inputs
+[RPA][54] - type //*[@id="newstock2"]/input as [clear]
+[RPA][54] - listening for inputs
+[RPA][55] - exist_result = exist('//*[@id="newstock2"]/input').toString()
+[RPA][55] - listening for inputs
+[RPA][56] - dump exist_result to rpa_python.txt
+[RPA][56] - listening for inputs
+[RPA][57] - type //*[@id="newstock2"]/input as 1
+[RPA][57] - listening for inputs
+[RPA][58] - exist_result = exist('//*[@id="totpurchase2"]/input').toString()
+[RPA][58] - listening for inputs
+[RPA][59] - dump exist_result to rpa_python.txt
+[RPA][59] - listening for inputs
+[RPA][60] - type //*[@id="totpurchase2"]/input as [clear]
+[RPA][60] - listening for inputs
+[RPA][61] - exist_result = exist('//*[@id="totpurchase2"]/input').toString()
+[RPA][61] - listening for inputs
+[RPA][62] - dump exist_result to rpa_python.txt
+[RPA][62] - listening for inputs
+[RPA][63] - type //*[@id="totpurchase2"]/input as 48
+[RPA][63] - listening for inputs
+[RPA][64] - dom return prompt('Do you want to submit')
+[RPA][64] - listening for inputs
+[RPA][65] - dump dom_result to rpa_python.txt
+[RPA][65] - listening for inputs
+[RPA][66] - exist_result = exist('//*[@id="normalsale"]/td/fieldset/table/tbody/tr[5]/td[6]/select').toString()
+[RPA][66] - listening for inputs
+[RPA][67] - dump exist_result to rpa_python.txt
+[RPA][67] - listening for inputs
+[RPA][68] - type //*[@id="normalsale"]/td/fieldset/table/tbody/tr[5]/td[6]/select as AMSTEL SUPER PREMIUM STRONG BEER-12027\'
+[RPA][68] - listening for inputs
+[RPA][69] - exist_result = exist('//*[@id="normalsale"]/td/fieldset/table/tbody/tr[6]/td[2]/select').toString()
